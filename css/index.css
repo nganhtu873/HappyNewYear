@@ -109,7 +109,7 @@ body {
         top: -12%;
     }
 }
-@keyframes animationTopDownNumber2020 {
+@keyframes animationTopDownNumber2022 {
     to {
         top: -11%;
     }
@@ -138,23 +138,23 @@ body {
 }
 .number:nth-child(7) {
     left: 35%;
-    -webkit-animation: animationTopDownNumber2020 1.2s ease-in-out 2.8s infinite alternate;
-    -moz-animation: animationTopDownNumber2020 1.2s ease-in-out 2.8s infinite alternate;
+    -webkit-animation: animationTopDownNumber2022 1.2s ease-in-out 2.8s infinite alternate;
+    -moz-animation: animationTopDownNumber2022 1.2s ease-in-out 2.8s infinite alternate;
 }
 .number:nth-child(8) {
     left: 40%;
-    -webkit-animation: animationTopDownNumber2020 1.2s ease-in-out 3.1s infinite alternate;
-    -moz-animation: animationTopDownNumber2020 1.2s ease-in-out 3.1s infinite alternate;
+    -webkit-animation: animationTopDownNumber2022 1.2s ease-in-out 3.1s infinite alternate;
+    -moz-animation: animationTopDownNumber2022 1.2s ease-in-out 3.1s infinite alternate;
 }
 .number:nth-child(9) {
     left: 45%;
-    -webkit-animation: animationTopDownNumber2020 1.2s ease-in-out 3.4s infinite alternate;
-    -moz-animation: animationTopDownNumber2020 1.2s ease-in-out 3.4s infinite alternate;
+    -webkit-animation: animationTopDownNumber2022 1.2s ease-in-out 3.4s infinite alternate;
+    -moz-animation: animationTopDownNumber2022 1.2s ease-in-out 3.4s infinite alternate;
 }
 .number:nth-child(10) {
     left: 50%;
-    -webkit-animation: animationTopDownNumber2020 1.2s ease-in-out 3.7s infinite alternate;
-    -moz-animation: animationTopDownNumber2020 1.2s ease-in-out 3.7s infinite alternate;
+    -webkit-animation: animationTopDownNumber2022 1.2s ease-in-out 3.7s infinite alternate;
+    -moz-animation: animationTopDownNumber2022 1.2s ease-in-out 3.7s infinite alternate;
 }
 .slogan {
     position: fixed;
@@ -227,7 +227,7 @@ body {
             top: -5%;
         }
     }
-    @keyframes animationTopDownNumber2020 {
+    @keyframes animationTopDownNumber2022 {
         to {
             top: -11%;
         }
