@@ -3,7 +3,7 @@ function displayAll(){
     this.imgFamily = document.getElementsByClassName("family"); // Hình cảnh gia đình
     this.listLentern_1 = document.querySelectorAll(".contain-tree-flower:nth-child(1) > .lentern"); // Các lồng đèn trên cây đào
     this.listLentern_2 = document.querySelectorAll(".contain-tree-flower:nth-child(2) > .lentern"); // Các lồng đèn trên cây mai
-    this.number2020 = document.getElementsByClassName("number"); // Các chữ số trong 2020
+    this.number2022 = document.getElementsByClassName("number"); // Các chữ số trong 2022
     this.textTet = document.getElementsByClassName("textTet")[0]; // Không biết gọi thế nào :)
     this.slogan = document.getElementsByClassName("slogan")[0]; // Câu nói hay ho năm canh tý
     // this.iconSetting = document.getElementsByClassName("icon-setting")[0]; // icon setting
@@ -89,11 +89,11 @@ function displayAll(){
     this.displayTextTet = function(){
         this.display(1200, 0, 2, [this.textTet], "top", -7, "%");
     }
-    // Hiển thị các chữ số trong 2020
-    this.displayNumber2020 = function() {
-        this.display(1200, 200, 2, this.number2020, "top", -8, "%");
+    // Hiển thị các chữ số trong 2022
+    this.displayNumber2022 = function() {
+        this.display(1200, 200, 2, this.number2022, "top", -8, "%");
     }
-    // Hiển thị câu slogan tết 2020
+    // Hiển thị câu slogan tết 2022
     this.displaySlogan = function(){
         this.display(2000, 0, 2, [this.slogan], "top", -10, "%");
     }
@@ -106,6 +106,6 @@ display.displayTreeFlower();
 display.displayImgFamily();
 display.displayLentern();
 display.displayTextTet();
-display.displayNumber2020();
+display.displayNumber2022();
 display.displaySlogan();
 display.displaySetting();
